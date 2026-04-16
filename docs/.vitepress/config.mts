@@ -26,7 +26,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Synthex', link: '/synthex/welcome', activeMatch: '/synthex/' },
+      { text: 'Synthex', link: '/synthex/', activeMatch: '/synthex/' },
     ],
 
     sidebar: {
@@ -34,7 +34,7 @@ export default defineConfig({
         {
           text: '📚 Introduction',
           items: [
-            { text: 'Welcome', link: '/synthex/welcome' },
+            { text: 'Welcome', link: '/synthex/' },
             { text: 'What You Get', link: '/synthex/guide/what-you-get' },
           ]
         },

@@ -1,137 +1,79 @@
-# Synthex
+# Welcome to SYNTHEX
 
-> AI automation template for modern teams.
+![synthex-social](/images/guide/synthex-social-image.png)
 
----
+Thank you for choosing **SYNTHEX** — a premium Framer template for AI automation agencies. This documentation will guide you through setup, customization, and publishing.
 
-## 1.1 Welcome {#welcome}
+## What is SYNTHEX?
 
-Thank you for choosing **SYNTHEX** — a premium Framer template for AI automation agencies.
+SYNTHEX is built around a **retro-futurist terminal aesthetic** — dark backgrounds, neon green accents, CRT effects, and monospace typography. Perfect for agencies showcasing AI automation services.
 
-SYNTHEX is built around a retro-futurist terminal aesthetic — dark backgrounds, neon accents, CRT effects, and monospace typography.
+**What's Included:**
 
-It ships with:
-- 12 fully designed pages  
-- 7 CMS collections  
-- custom components  
+- **12 fully designed pages**
+- **7 CMS collections**  
+- **3 custom components** (Terminal Dashboard, ROI Calculator, 404 Game)
+- **Custom design system** with 23 color tokens
 
----
+## What You'll Learn
 
-## 1.2 What You Get {#what-you-get}
+In this documentation, you'll discover how to:
 
-A complete, production-ready Framer project.
+✅ **Duplicate** the template to your Framer workspace  
+✅ **Understand** the page structure and CMS setup  
+✅ **Customize** colors, typography, and components  
+✅ **Manage content** through CMS collections (Blog, Cases, Career, etc.)  
+✅ **Publish** your site with a custom domain  
 
-### Pages Included
+## Get Started
 
-- Blog  
-- Cases  
-
----
-
-## 2.1 Duplicate the Template {#duplicate}
-
-> **Live Preview**  
-> See it live: *(add your link here)*
+👉 **[Start with Duplication →](/synthex/guide/duplicate)**
 
 ---
 
-## 2.2 Framer Basics {#framer-basics}
+## Documentation Sections
 
-### Key areas
+### 📚 **Introduction**
+- [Welcome](/synthex/) - You are here!
+- [What You Get](/synthex/guide/what-you-get)
 
-- Canvas — main workspace  
-- Pages Panel — navigation  
-- CMS Panel — dynamic content  
-- Properties Panel — editing  
+### 🚀 **Getting Started**
+- [Duplicate the Template](/synthex/guide/duplicate)
+- [Framer Basics](/synthex/guide/framer-basics)
 
----
+### 📄 **Pages & Content**
+- [Pages Overview](/synthex/guide/pages-overview)
+- [Editing Content](/synthex/guide/editing-content)
 
-## 3.1 Pages Overview {#pages-overview}
+### 🗂️ **CMS Collections**
+- [CMS Overview](/synthex/guide/cms-overview)
+- [Blog Collection](/synthex/guide/cms-blog)
+- [Cases Collection](/synthex/guide/cms-cases)
+- [Career/Jobs](/synthex/guide/cms-career)
+- [Legal Pages](/synthex/guide/cms-legal)
+- [Pricing Table](/synthex/guide/cms-pricing)
+- [How to Edit Items](/synthex/guide/cms-edit)
 
-SYNTHEX includes multiple ready-to-use pages:
+### 🎨 **Design System**
+- [Colors & Tokens](/synthex/design/colors)
+- [Typography](/synthex/design/typography)
 
-- Homepage  
-- About  
-- Blog  
-- Cases  
-- Career  
-- Pricing  
-- Contact  
+### 📦 **Custom Components**
+- [Terminal Dashboard](/synthex/components/terminal)
+- [ROI Calculator](/synthex/components/roi-calculator)
+- [404 Game](/synthex/components/404-game)
+- [Terminal Image Frame](/synthex/components/terminal-image)
+- [Other Components](/synthex/components/other)
 
-CMS pages are generated automatically (`:slug`).
-
----
-
-## 3.2 Editing Content {#editing-content}
-
-### Text
-
-Click → edit → done
-
-### Images
-
-Replace via Properties panel
-
----
-
-## 4.1 CMS Overview {#cms-overview}
-
-CMS powers dynamic content.
-
-| Collection | Used On |
-|----------|--------|
-| Blog | /blog |
-| Cases | /cases |
+### 📋 **Publishing & Deployment**
+- [Publish Your Site](/synthex/guide/publish)
+- [Connect Custom Domain](/synthex/guide/domain)
+- [SEO Settings](/synthex/guide/seo)
 
 ---
 
-## 4.2 Blog {#blog}
+## Need Help?
 
-Fields:
+Each section includes step-by-step guides and tips. Start with **[Duplicate the Template](/synthex/guide/duplicate)** if you're new to Framer!
 
-- Title  
-- Slug  
-- Summary  
-- Cover image  
-- Content  
-
----
-
-## 4.3 Cases {#cases}
-
-Fields:
-
-- Title  
-- Client  
-- Image  
-- Results  
-
----
-
-## 5. Design System {#colors}
-
-### Colors
-
-- Primary  
-- Secondary  
-- Background  
-
----
-
-## 6. Components {#components}
-
-Main components:
-
-- Terminal Dashboard  
-- ROI Calculator  
-- 404 Game  
-
----
-
-## 7. Publishing {#publish}
-
-Steps:
-
-1. Review content  
-2. Set SEO  
-3. Click Publish  
+**Made by Pixometra** ❤️
