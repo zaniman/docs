@@ -1,5 +1,7 @@
 # Welcome to SYNTHEX
 
+![SYNTHEX Template](/images/guide/synthex-social-image.png)
+
 Thank you for choosing **SYNTHEX** — a premium Framer template for AI automation agencies. This documentation will guide you through setup, customization, and publishing.
 
 ## What is SYNTHEX?
