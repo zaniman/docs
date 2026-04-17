@@ -39,7 +39,7 @@ export default defineConfig({
         max-width: 100% !important;
         height: auto !important;
       }
-      /* Override VitePress CSS variables */
+      /* Dark theme - bright neon green */
       :root {
         --vp-c-brand: #40ff43 !important;
         --vp-c-brand-0: #40ff43 !important;
@@ -52,6 +52,19 @@ export default defineConfig({
         --vp-c-brand-darker: #33cc34 !important;
       }
 
+      /* Light theme - darker green for readability */
+      :root.light {
+        --vp-c-brand: #22aa00 !important;
+        --vp-c-brand-0: #22aa00 !important;
+        --vp-c-brand-1: #22aa00 !important;
+        --vp-c-brand-2: #22aa00 !important;
+        --vp-c-brand-3: #22aa00 !important;
+        --vp-c-brand-light: #22aa00 !important;
+        --vp-c-brand-lighter: #22aa00 !important;
+        --vp-c-brand-dark: #1a8800 !important;
+        --vp-c-brand-darker: #1a8800 !important;
+      }
+
       /* Global brand color for all links */
       a {
         color: #40ff43 !important;
@@ -61,6 +74,17 @@ export default defineConfig({
       }
       a:visited {
         color: #40ff43 !important;
+      }
+
+      /* Light theme links */
+      :root.light a {
+        color: #22aa00 !important;
+      }
+      :root.light a:hover {
+        color: #1a8800 !important;
+      }
+      :root.light a:visited {
+        color: #22aa00 !important;
       }
 
       /* Table links */
