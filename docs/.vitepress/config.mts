@@ -19,10 +19,19 @@ export default defineConfig({
         padding-top: 48px !important;
       }
       img {
-        max-width: 100%;
-        width: auto;
-        height: auto;
-        display: block;
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+        display: inline-block !important;
+      }
+      .vp-doc img {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+      }
+      .markdown-body img {
+        max-width: 100% !important;
+        width: auto !important;
       }
     `]
   ],
