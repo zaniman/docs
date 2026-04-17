@@ -39,55 +39,14 @@ export default defineConfig({
         max-width: 100% !important;
         height: auto !important;
       }
-      /* Brand color for links in synthexa documentation */
-      .VPDoc[data-v-app] a {
+      /* Global brand color for all links */
+      a {
         color: #40ff43 !important;
       }
-      .vp-doc a {
-        color: #40ff43 !important;
-      }
-      .vp-doc a:hover {
+      a:hover {
         color: #33cc34 !important;
       }
-      /* Sidebar links for synthexa */
-      .VPSidebar a {
-        color: #40ff43 !important;
-      }
-      .VPSidebar a:hover {
-        color: #33cc34 !important;
-      }
-      /* More specific sidebar selectors */
-      .VPSidebarItem a,
-      .VPMenuLink,
-      .VPSidebarItem .VPMenuLink,
-      a.VPMenuLink {
-        color: #40ff43 !important;
-      }
-      .VPSidebarItem a:hover,
-      .VPMenuLink:hover,
-      a.VPMenuLink:hover {
-        color: #33cc34 !important;
-      }
-      /* Nav sidebar specific */
-      .nav-item a,
-      .nav-item .nav-link {
-        color: #40ff43 !important;
-      }
-      .nav-item a:hover,
-      .nav-item .nav-link:hover {
-        color: #33cc34 !important;
-      }
-      /* Any remaining blue links */
-      [class*="sidebar"] a,
-      [class*="nav"] a {
-        color: #40ff43 !important;
-      }
-      [class*="sidebar"] a:hover,
-      [class*="nav"] a:hover {
-        color: #33cc34 !important;
-      }
-      /* Content area links */
-      .vp-doc a code {
+      a:visited {
         color: #40ff43 !important;
       }
     `]
