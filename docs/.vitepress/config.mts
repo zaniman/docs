@@ -42,6 +42,10 @@ export default defineConfig({
       /* Override VitePress CSS variables */
       :root {
         --vp-c-brand: #40ff43 !important;
+        --vp-c-brand-0: #40ff43 !important;
+        --vp-c-brand-1: #40ff43 !important;
+        --vp-c-brand-2: #40ff43 !important;
+        --vp-c-brand-3: #40ff43 !important;
         --vp-c-brand-light: #40ff43 !important;
         --vp-c-brand-lighter: #40ff43 !important;
         --vp-c-brand-dark: #33cc34 !important;
