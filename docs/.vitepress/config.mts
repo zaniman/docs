@@ -92,13 +92,9 @@ export default defineConfig({
       ]
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/pixometra' }
-    ],
-
     footer: {
       message: 'Made with ❤️ by Pixometra',
-      copyright: 'Copyright © 2024 Pixometra'
+      copyright: 'Copyright © 2026 Pixometra'
     },
 
     search: {
