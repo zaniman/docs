@@ -42,7 +42,7 @@ SYNTHEXA includes **7 fully configured CMS collections** with sample data:
 - **Blog Categories** (5 categories) — For blog filtering
 - **Pricing** (24 items) — Detailed feature comparison table across 3 plans
   - Features include: workflows, integrations, support, SLA, documentation
-- **Legal** (5 pages) — Privacy Policy, Terms of Service, and additional pages
+- **Legal** (2 pages) — Privacy Policy and Terms of Service
 
 ## 📦 Components
 
