@@ -105,8 +105,11 @@ Simply click the toggle icon to switch between modes. The preference is saved in
 To modify the Light and Dark color schemes:
 
 1. **Go to Assets** → **Colors** in Framer
-2. Find color tokens like `Terminal/Primary`, `Background/Dark`, `Text/Light`
-3. Edit the colors for each theme variant
+2. Find color token groups:
+   - **Terminal** — TerminalPrimary, TerminalSecondary, TerminalLines
+   - **Background** — BackgroundHighlight, BackgroundTop, BackgroundElevated, BackgroundSurface, BackgroundBase, BackgroundCanvas
+   - **Brand**, **Text**, **Others** — Additional tokens for your branding
+3. Click on any token to edit the Light and Dark color variants
 4. Your site updates automatically — both light and dark versions reflect the changes
 
 :::tip
@@ -134,11 +137,13 @@ When Theme Switcher is Off, visitors will see either Light or Dark theme based o
 If you want your site to use only one color theme (e.g., always Dark mode):
 
 1. Go to **Assets** → **Colors** in Framer
-2. For each color token, set the **Dark** and **Light** variants to the **same color**
-3. If you want Light mode only, copy your Light colors to the Dark slot
-4. If you want Dark mode only, copy your Dark colors to the Light slot
+2. For each color token (TerminalPrimary, BackgroundBase, etc.), click to open it
+3. Set the **Dark** and **Light** variants to the **same color**:
+   - If you want **Light mode only** — copy your Light color values to the Dark slot
+   - If you want **Dark mode only** — copy your Dark color values to the Light slot
+4. Apply this to all tokens across Terminal, Background, Brand, Text, and Others groups
 
-Now your site will look identical regardless of system settings or theme preference.
+Now your site will look identical regardless of system settings or theme preference. All variants will use the colors you specified.
 
 ## Next Steps
 
