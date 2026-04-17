@@ -56,6 +56,36 @@ export default defineConfig({
       .VPSidebar a:hover {
         color: #33cc34 !important;
       }
+      /* More specific sidebar selectors */
+      .VPSidebarItem a,
+      .VPMenuLink,
+      .VPSidebarItem .VPMenuLink,
+      a.VPMenuLink {
+        color: #40ff43 !important;
+      }
+      .VPSidebarItem a:hover,
+      .VPMenuLink:hover,
+      a.VPMenuLink:hover {
+        color: #33cc34 !important;
+      }
+      /* Nav sidebar specific */
+      .nav-item a,
+      .nav-item .nav-link {
+        color: #40ff43 !important;
+      }
+      .nav-item a:hover,
+      .nav-item .nav-link:hover {
+        color: #33cc34 !important;
+      }
+      /* Any remaining blue links */
+      [class*="sidebar"] a,
+      [class*="nav"] a {
+        color: #40ff43 !important;
+      }
+      [class*="sidebar"] a:hover,
+      [class*="nav"] a:hover {
+        color: #33cc34 !important;
+      }
       /* Content area links */
       .vp-doc a code {
         color: #40ff43 !important;
