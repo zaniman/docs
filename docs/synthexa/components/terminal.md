@@ -322,14 +322,11 @@ The sum of the split numbers must equal the total **Panels** count set above. Fo
 
 ### Loop
 
-Animations repeat continuously
+Typewriter animation repeats continuously (loops).
 
 ### Once
 
-Animations play once on component mount:
-
-- **Terminal panel:** Typewriter plays once, then freezes
-- **Other panels:** Bars, Status, Ring, and other visualizations animate once to their final state and stay static
+Typewriter animation plays once on component mount, then freezes and doesn't repeat.
 
 ### Fade
 
