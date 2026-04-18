@@ -30,7 +30,11 @@ export default defineConfig({
       .markdown-body img {
         max-width: 600px;
       }
-      /* 2x images are sized via JavaScript in theme/index.js */
+      /* 2x images - initial CSS prevents flash, JS sets exact size */
+      img[src*="@2x"] {
+        max-width: min(50%, 600px);
+        height: auto;
+      }
     `]
   ],
 
