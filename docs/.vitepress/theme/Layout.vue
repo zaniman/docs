@@ -1,6 +1,6 @@
 <template>
   <DefaultLayout>
-    <template #nav-bar-content-after>
+    <template #nav-bar-content-before>
       <div class="wip-banner">
         📝 Documentation in Progress — may contain inaccuracies.
       </div>
@@ -25,6 +25,7 @@ const DefaultLayout = DefaultTheme.Layout
   height: 32px;
   display: flex;
   align-items: center;
+  margin-left: 12px;
   margin-right: 12px;
 }
 
