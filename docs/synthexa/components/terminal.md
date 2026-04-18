@@ -334,36 +334,6 @@ Fade-in animation when component mounts:
 - **On** — Component fades in with customizable duration (default 200ms, range 50–2000ms)
 - **Off** — Component appears instantly
 
-## Panel Configuration Format
-
-Each Panel field shows a summary:
-
-```
-Type, Title, SizeMode, Opacity
-```
-
-**Example:**
-```
-Terminal, Workflow Scan, Fit, 1.0
-Sparkline, Resource Usage, Fill, 0.85
-Ring, Memory, Fit, 0.9
-```
-
-## Responsive Behavior
-
-On mobile:
-- Panels reflow to vertical stack (Stacked layout)
-- Font scales down automatically
-- Reduced animations for performance
-- Touch-friendly spacing
-
-## Performance Tips
-
-- **Limit panels** — 3–4 panels for optimal performance
-- **Disable animations** — Set to "Once" or "Off" on lower-end devices
-- **Reduce font scale** — Smaller fonts load faster
-- **Simple layouts** — Avoid excessive nesting
-
 ## Common Configurations
 
 ### Simple Status Dashboard
@@ -395,22 +365,6 @@ Layout: Equal halves
 - Panel 3: Bars (Workload distribution)
 - Panel 4: Status (System status)
 ```
-
-## Troubleshooting
-
-**Panel content not showing?**
-- Make sure panel type is not "None"
-- Check that data is properly configured
-- Verify colors are visible against background
-
-**Animations not playing?**
-- Check Animation is set to "Loop" or "Once"
-- Ensure Fade is "On" to see entrance animation
-- Refresh page if animations freeze
-
-**Text too small?**
-- Increase Font Scale slider
-- Adjust individual panel opacity if hard to read
 
 ## Next Steps
 
