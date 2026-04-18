@@ -36,7 +36,6 @@ The Privacy Policy contains a link to `legal@synthexa.com`. Replace it with your
 4. Click the **Link** button (chain icon) in the Rich Text toolbar
 5. In the "Link To" field, enter: `mailto:legal@yourcompany.com`
 6. Click outside or confirm to apply the link
-7. Save the document
 
 The email will now appear as a clickable mailto link that opens the user's email client.
 :::
@@ -86,7 +85,19 @@ Pages display:
 
 ## Footer Links
 
-Legal documents are automatically linked in the footer. No additional setup required.
+When you create a new legal document, add a corresponding link in the footer:
+
+1. Go to **Assets** → **MainTemplate**
+2. Find and double-click the **Footer** component to edit it
+3. **Select an existing legal link** (e.g., "Terms of Service")
+4. Press **Cmd+D** (Mac) or **Ctrl+D** (Windows) to duplicate the link
+5. Open the **Properties panel** (right sidebar)
+6. In the **Slug** field, change it to match your new legal document's slug (e.g., if you created "Cookie Policy" in CMS, the slug will be something like `cookie-policy`)
+7. Scroll down to the **Text** section
+8. In the **Content** field, change the link text to your new document name (e.g., "Cookie Policy")
+9. Save and publish
+
+The new legal document link now appears in the footer and directs to `/legal/:slug`.
 
 ## Next Steps
 
