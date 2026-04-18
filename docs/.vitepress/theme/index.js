@@ -23,6 +23,9 @@ export default {
   Layout,
   enhanceApp({ router }) {
     if (typeof window !== 'undefined') {
+      // При первой загрузке
+      window.addEventListener('load', () => setTimeout(resize2xImages, 50))
+      // При каждой навигации
       router.onAfterRouteChanged = () => {
         setTimeout(resize2xImages, 50)
       }

@@ -19,25 +19,16 @@ export default defineConfig({
         padding-top: 48px !important;
       }
       img {
-        max-width: 100% !important;
-        width: auto !important;
-        height: auto !important;
-        display: inline-block !important;
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
       }
       .vp-doc img {
-        max-width: 600px !important;
-        width: auto !important;
-        height: auto !important;
+        max-width: 600px;
+        height: auto;
       }
       .markdown-body img {
-        max-width: 600px !important;
-        width: auto !important;
-      }
-      /* For retina 2x images - display at original logical size */
-      .vp-doc p img,
-      .vp-doc div img {
-        max-width: 100% !important;
-        height: auto !important;
+        max-width: 600px;
       }
       /* 2x images are sized via JavaScript in theme/index.js */
     `]
