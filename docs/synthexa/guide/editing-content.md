@@ -109,7 +109,7 @@ To replace the SYNTHEXA logo with your own:
 ![Vector Set Edit](/images/guide/synthexa-22.png)
 
 **Inserting your SVG logo onto the canvas:**
-- **Method 1:** Right-click on the canvas → **Insert Image** and select your SVG file
+- **Method 1:** Go to **File** → **Upload Image** and select your SVG file
 - **Method 2:** Drag and drop your SVG file directly from your operating system onto the canvas
 
 **Logo best practices:**
