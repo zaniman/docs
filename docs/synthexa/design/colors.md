@@ -282,13 +282,13 @@ Global brand identity colors used for broader site accents like navigation state
 
 ### Background Group
 
-Foundation colors for layout and page structure:
+Foundation colors for layout and page structure, organized by depth levels from top to bottom:
 
-- `/Background/BackgroundBase` — Main page/container background
-- `/Background/BackgroundElevated` — Elevated panels and cards (higher contrast)
+- `/Background/BackgroundHighlight` — Highest level, highlighted or active background areas
 - `/Background/BackgroundTop` — Top navigation and header backgrounds
-- `/Background/BackgroundHighlight` — Highlighted or active background areas
+- `/Background/BackgroundElevated` — Elevated panels and cards (higher contrast)
 - `/Background/BackgroundSurface` — Surface elements like input fields and form backgrounds
+- `/Background/BackgroundBase` — Main page/container background
 - `/Background/BackgroundCanvas` — Deepest background layer
 
 ### Text Group
