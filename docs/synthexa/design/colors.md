@@ -214,12 +214,14 @@ In Framer:
 
 Look for the token you want to change:
 - To change the main neon accent: `/Terminal/TerminalPrimary`
-- To change navigation states: `/Brand/BrandPrimary`
+- To change brand color: `/Brand/BrandPrimary`
 - To change body text: `/Text/TextPrimary`
 
 ### Step 3: Click the Color
 
 Click the color swatch to open the color picker.
+
+![Сolor changing](/images/guide/synthexa-33.png)
 
 ### Step 4: Choose Your Color
 
@@ -241,6 +243,8 @@ Each color token can have separate values for light and dark themes:
 - Look for **Light** and **Dark** variants
 - Set different colors for each mode
 - Framer auto-switches based on system preference
+
+For a guide on how visitors can switch between light and dark modes on your site, see [Switching Themes (Dark/Light Mode)](/synthexa/guide/editing-content#switching-themes-dark-light-mode).
 
 ## Color Accessibility
 
