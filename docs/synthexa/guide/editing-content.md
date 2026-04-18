@@ -15,6 +15,8 @@ Changes appear instantly on the canvas.
 
 ### Method 2: Properties Panel
 
+![Text Edit Properties](/images/guide/synthexa-12.png)
+
 1. **Click** the text element (single-click)
 2. Open the **Properties panel** (right sidebar)
 3. Look for the **Content** field
@@ -23,6 +25,8 @@ Changes appear instantly on the canvas.
 ## Changing Text Styles
 
 All text in SYNTHEXA uses **global Text Styles**. 
+
+![Text Style Edit](/images/guide/synthexa-13.png)
 
 **To update a style:**
 1. Go to **Assets** → **Text Styles**
@@ -35,28 +39,19 @@ All text in SYNTHEXA uses **global Text Styles**.
 Avoid changing individual element styles. Always edit the global Text Style instead — it keeps your site consistent.
 :::
 
-## Replacing Images
-
-### Basic Image Replacement
-
-1. **Click** the image on the canvas
-2. Open the **Properties panel** (right sidebar)
-3. Find the **Image** field
-4. Click **Replace** → **Upload**
-5. Choose your new image
-
-### Best Practices for Images
-
-- **Optimize size** — Export at 2× resolution, then compress to under 500KB
-- **Use WebP** when possible — Better compression, faster loading
-- **Check aspect ratio** — Make sure your image matches the frame size
-- **Avoid over-large files** — Large images significantly slow page load
-
 ## Editing Specific Elements
 
-### Navigation & Header
-- Click logo or nav items to edit text/links
-- Use Properties panel to change colors, sizes
+### Navigation & Footer
+
+1. Go to **Assets** → **Templates** → **MainTemplates**
+
+![Text Style Edit](/images/guide/synthexa-14.png)
+
+2. In the **Layers panel**, you will see the **Navigation** and **Footer** components
+3. To edit them, select the component in the layers and click **Edit Component** in the right Properties panel
+   - Alternatively, you can **double-click** the component directly on the canvas
+
+![Text Style Edit](/images/guide/synthexa-15.png)
 
 ### Hero Sections  
 - Edit headline and subheadline with double-click
