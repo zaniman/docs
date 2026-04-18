@@ -1,51 +1,130 @@
 # Cases Collection
 
-The Cases collection powers your `/cases` portfolio page and case study pages.
+The Cases collection powers your `/cases` portfolio page and case study detail pages.
 
 ## Fields
 
+### Basic Information
 | Field | Type | Notes |
 |-------|------|-------|
-| **Title** | String | Project name |
-| **Client** | String | Client or company name |
-| **Cover Image** | Image | Main project thumbnail |
-| **Summary** | String | One-line description on cases grid |
-| **Content** | Rich Text | Full case study body with results, process, learnings |
-| **Results** | String | Key outcome metric (e.g. "40% faster", "$2M saved") |
-| **Tags** | String | Service tags on the card (e.g. "AI, Automation, Data") |
-| **Featured** | Boolean | Shows in homepage featured section |
+| **Featured Case** | Boolean | Mark to display in the featured section on the Cases page |
+| **Company Logo** | Image | Logo used in cards and case headers |
+| **Case Title** | String | Main headline displayed on the case page and case card |
+| **Short Description** | String | Short summary shown on the case card below the title |
+
+### Visual Content
+| Field | Type | Notes |
+|-------|------|-------|
+| **Terminal Snapshot** | Rich Text | Terminal component preview with company info (see setup below) |
+
+### Metrics Section (KPIs)
+| Field | Type | Notes |
+|-------|------|-------|
+| **KPI 1 Label** | String | Description of first metric (e.g., "Hours reclaimed/week") |
+| **KPI 1 Value** | String | Numeric value (e.g., "26") |
+| **KPI 2 Label** | String | Description of second metric (e.g., "Automations live") |
+| **KPI 2 Value** | String | Numeric value (e.g., "9") |
+| **KPI 3 Label** | String | Description of third metric (e.g., "Cost saved/year") |
+| **KPI 3 Value** | String | Numeric value with optional currency (e.g., "$31.5K") |
+| **KPI 4 Label** | String | Description of fourth metric (e.g., "Success rate") |
+| **KPI 4 Value** | String | Numeric value with optional percentage (e.g., "99.5 %") |
+
+### Case Content
+| Field | Type | Notes |
+|-------|------|-------|
+| **Challenge** | Rich Text | Describe the business problem before automation |
+| **Solution** | Rich Text | Explain how the company solved the problem |
+| **Case Story** | Rich Text | Full editorial case narrative with structured headings |
+
+### Testimonial Section
+| Field | Type | Notes |
+|-------|------|-------|
+| **Testimonial Photo** | Image | Portrait photo of the client representative |
+| **Testimonial Headline** | String | Short quote headline shown above testimonial text |
+| **Testimonial Message** | Rich Text | Full testimonial quote from the client |
+| **Person Name** | String | Name of the testimonial author |
+| **Person Role** | String | Job title of the testimonial author |
+
+### Metadata
+| Field | Type | Notes |
+|-------|------|-------|
+| **Slug** | String | URL path — auto-generated from case title |
+
+## Terminal Snapshot Setup
+
+The Terminal Snapshot field displays a branded terminal component showing company info. To set it up:
+
+1. Click **Edit Component** (if you don't have a terminal yet)
+2. Duplicate an existing variant or create a new one
+3. Update company logo, profile text, and metrics inside the terminal
+4. Return here and select it from the list
+
+**Key fields in terminal:**
+- Company logo (20px height recommended)
+- Company name and profile
+- Industry, team size, founded date
+- Connected tools count
+- Deployment time
 
 ## Example Case Study
 
-**Title:** "ACME Corp Automation Platform"
+**Featured Case:** Yes
 
-**Client:** "ACME Corporation"
+**Company Logo:** [ACME Corp logo image]
 
-**Summary:** "Reduced manual data entry by 85% through AI-powered workflow automation."
+**Case Title:** "How reporting automation cut manual work by 78%"
 
-**Content:** Detailed breakdown of the project, approach, and results.
+**Short Description:** "Unified disconnected reporting systems into one automated workflow across 4 teams."
 
-**Results:** "85% reduction in manual work"
+**Terminal Snapshot:** [Select ACME Corp variant]
 
-**Tags:** "AI, Automation, Integration"
+**KPI 1 Label:** "Hours reclaimed/week" | **Value:** "26"
 
-**Featured:** Toggle on to showcase on homepage
+**KPI 2 Label:** "Automations live" | **Value:** "9"
+
+**KPI 3 Label:** "Cost saved/year" | **Value:** "$31.5K"
+
+**KPI 4 Label:** "Success rate" | **Value:** "99.5 %"
+
+**Challenge:** 
+"Before automation, Acme's reporting depended on manual exports from CRM, billing, finance, and internal dashboards. Teams spent hours every week consolidating spreadsheets, reconciling mismatched figures, and validating reports before they could be shared with leadership..."
+
+**Solution:**
+"Synthexa connected every reporting source into a centralized automation flow that runs continuously in the background. Data is now synced automatically, validation checks happen in real time, and exceptions are flagged before they reach final reports..."
+
+**Case Story:**
+"Acme Corp replaced fragmented manual reporting with one automated workflow, turning a slow weekly process into a reliable real-time system used across four departments. As Acme expanded across multiple departments, reporting complexity increased faster than internal processes could handle..."
+
+**Testimonial Photo:** [Jennifer Wu portrait]
+
+**Testimonial Headline:** "Synthexa turned reporting from a weekly bottleneck into a fully automated workflow"
+
+**Testimonial Message:** 
+"Before Synthexa, our finance and operations teams were spending hours every week manually collecting data from disconnected systems. Reporting cycles were slow, fragmented, and prone to costly errors. As our company scaled, these inefficiencies became impossible to ignore. With Synthexa, reporting now runs automatically in the background across all departments. What used to require multiple people and manual validation now happens reliably without intervention. Our team can finally focus on decisions instead of spreadsheet maintenance."
+
+**Person Name:** "Jennifer Wu"
+
+**Person Role:** "VP Sales Operations"
+
+**Slug:** `how-reporting-automation-cut-manual-work-by-78` (auto-generated)
 
 ## Auto-Generated Pages
 
 Once saved, a new case study page is created at `/cases/:slug` with:
-- Full case content
-- Client name
-- Results metric
-- Project tags
-- Navigation to related cases
+- Full case story and metrics
+- Company logo and testimonial
+- KPI dashboard
+- Terminal snapshot preview
+- Navigation to other cases
 
 ## Tips
 
-- **High-quality images** — Cover images should be 1200×630px or larger
-- **Compelling results** — Lead with the key metric
-- **Clear structure** — Use headings in content: Problem, Solution, Results
-- **Screenshots** — Include project screenshots in the rich text content
+- **Company Logos** — Use SVG or PNG logos at 40×40px minimum
+- **KPI Values** — Use clear, quantifiable metrics (%, hours, currency, counts)
+- **Terminal Preview** — Keep it visually balanced, 2-3 key metrics displayed
+- **Testimonial Photo** — Use professional headshots (200×200px recommended)
+- **Rich Text Content** — Structure with clear headings: "Before Synthexa", "What changed", "Business impact"
+- **Case Title** — Lead with the key benefit or outcome for maximum impact
 
 ## Next Steps
 
