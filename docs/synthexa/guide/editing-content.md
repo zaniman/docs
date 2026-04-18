@@ -85,38 +85,18 @@ Footer links are text elements, not components. To edit them:
 ![Footer Links](/images/guide/synthexa-17.png)
 
 ### Hero Sections  
-
-**Edit Headlines:**
 - Edit headline and subheadline with double-click
+- Adjust CTA buttons text and icons
+  1. **Click the button** on the canvas to select it
+  2. Open the **Properties panel** (right sidebar)
+  3. **Change button text** — Find the **Label** field and edit the text
+  4. **Change button icon** — Find the **Icon** field and select a different icon
+  5. **Change button variant** — Find the **Variant** field to change the button style
+  6. **Toggle visibility** — Use **Show Label** and **Show Icon** to hide/show elements
 
-**Replace Hero Image:**
-- Select the hero image
-- Open the **Properties panel** (right sidebar)
-- Click the image field to upload or change the hero image
+![CTA Button](/images/guide/synthexa-18.png)
 
-**Edit CTA Buttons:**
 
-To customize the Call-to-Action button in your hero section:
-
-1. **Click the button** on the canvas (single-click to select)
-2. Open the **Properties panel** (right sidebar)
-
-**Change button text:**
-- Find the **Label** field in the Properties panel
-- Edit the text to change what appears on the button
-
-**Change button icon:**
-- Find the **Icon** field in the Properties panel
-- Select a different icon from the dropdown
-- Uncheck **Show Icon** to hide the icon if needed
-
-**Change button variant/type:**
-- Find the **Variant** field in the Properties panel
-- Select from available button styles (e.g., Primary, Secondary, etc.)
-
-**Toggle text and icon visibility:**
-- Use **Show Label** to show/hide the button text
-- Use **Show Icon** to show/hide the button icon
 
 ### Blog/Cases Sections
 - Don't edit these directly — use **CMS collections** instead
