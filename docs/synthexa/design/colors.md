@@ -287,15 +287,16 @@ In Framer, click the **sun/moon icon** in the bottom toolbar to toggle between l
 - `/Text/TextSecondary`
 - `/Text/TextMuted`
 - `/Text/TextInverse`
-- `/Text/TextOnColorPrimary`
-- `/Text/TextOnColorSecondary`
 - `/Text/TextError`
 
 ### Others Group
-- `/Others/LightSubtle`
-- `/Others/LightStrong`
-- `/Others/ShadowSubtle`
-- `/Others/ShadowStrong`
+
+Used primarily for creating 3D effects through inner shadows and drop shadows on elements:
+
+- `/Others/LightSubtle` — Subtle highlight/glow for light effects
+- `/Others/LightStrong` — Strong highlight/glow for pronounced light effects
+- `/Others/ShadowSubtle` — Subtle shadow for soft depth
+- `/Others/ShadowStrong` — Strong shadow for pronounced depth
 
 ## Next Steps
 
