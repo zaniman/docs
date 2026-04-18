@@ -284,7 +284,7 @@ Global brand identity colors used for broader site accents like navigation state
 
 Foundation colors for layout and page structure, organized by depth levels from top to bottom:
 
-- `/Background/BackgroundHighlight` — Highest level, highlighted or active background areas
+- `/Background/BackgroundHighlight` — Highest level, used for forms, cards, and highlighted/featured elements (e.g., popular pricing plan)
 - `/Background/BackgroundTop` — Main page and container background
 - `/Background/BackgroundElevated` — Elevated panels and cards (higher contrast)
 - `/Background/BackgroundSurface` — Surface elements like input fields and form backgrounds
