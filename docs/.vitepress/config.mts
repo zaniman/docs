@@ -95,10 +95,10 @@ export default defineConfig({
         {
           text: 'Components',
           items: [
-            { text: 'Terminal Dashboard', link: '/synthexa/components/terminal' },
-            { text: 'ROI Calculator', link: '/synthexa/components/roi-calculator' },
-            { text: '404 Game', link: '/synthexa/components/404-game' },
-            { text: 'Terminal Image', link: '/synthexa/components/terminal-image' },
+            { text: 'TerminalDashboard', link: '/synthexa/components/terminal' },
+            { text: 'ROICalculator', link: '/synthexa/components/roi-calculator' },
+            { text: 'NotFoundGame', link: '/synthexa/components/404-game' },
+            { text: 'TerminalImage', link: '/synthexa/components/terminal-image' },
             { text: 'Other Components', link: '/synthexa/components/other' },
           ]
         },
