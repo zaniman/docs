@@ -159,10 +159,11 @@ export default defineConfig({
                 { text: 'CompanyMetric', link: '/synthexa/components/company-metric' },
                 { text: 'BadgeAnnounce', link: '/synthexa/components/badge-announce' },
                 { text: 'SectionPrefix', link: '/synthexa/components/section-prefix' },
+                { text: 'GridBase', link: '/synthexa/components/grid-base' },
+                { text: 'ContactForm', link: '/synthexa/components/contact-form' },
                 { text: 'TerminalEffects', link: '/synthexa/components/terminal-effects' },
               ]
             },
-            { text: 'Other Components', link: '/synthexa/components/other' },
           ]
         },
         {

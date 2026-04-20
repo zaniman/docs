@@ -63,13 +63,12 @@ In this documentation, you'll discover how to:
 - [Colors & Tokens](/synthexa/design/colors)
 - [Typography](/synthexa/design/typography)
 
-### Custom Components
+### Components
 
-- [TerminalDashboard](/synthexa/components/terminal)
-- [ROICalculator](/synthexa/components/roi-calculator)
-- [NotFoundGame](/synthexa/components/404-game)
-- [TerminalImage Frame](/synthexa/components/terminal-image)
-- [Other Components](/synthexa/components/other)
+- [Cards](/synthexa/components/card-pattern)
+- [Code Components](/synthexa/components/roi-calculator)
+- [Terminal Components](/synthexa/components/terminal)
+- [Utility Components](/synthexa/components/comparison-table)
 
 ### Publishing & Deployment
 

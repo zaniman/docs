@@ -30,13 +30,3 @@ To modify the visual design of SectionPrefix across the entire site:
 
 This ensures consistent branding throughout your documentation and website.
 
-## Usage
-
-SectionPrefix is used in:
-
-- **Section headers** — All major content sections (deployment, patterns, workflows, etc.)
-- **Feature sections** — To introduce new features or capabilities
-- **Page divisions** — To visually separate different topics
-- **Consistent branding** — Appears on every page to maintain visual identity
-
-Simply update the Prefix and Label properties to customize each section.
