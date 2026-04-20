@@ -150,6 +150,12 @@ export default defineConfig({
                 { text: 'TerminalCases', link: '/synthexa/components/terminal-cases' },
               ]
             },
+            {
+              text: 'Utility Components',
+              items: [
+                { text: 'ComparisonTable', link: '/synthexa/components/comparison-table' },
+              ]
+            },
             { text: 'Other Components', link: '/synthexa/components/other' },
           ]
         },

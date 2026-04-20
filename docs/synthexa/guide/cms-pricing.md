@@ -98,45 +98,6 @@ This flexibility lets you show:
    - **Info**: Text like "Custom", "Unlimited", "$99/mo" (if Show Icon is No)
 5. Click **Save**
 
-## Editing Plan Names & Pricing
+## Editing the Comparison Table
 
-The plan names and CTA buttons in the comparison table are edited through the **ComparisonTable** component:
-
-### Editing Plan Names
-
-1. Go to the **Pricing** page
-2. In the **Layers panel** (left sidebar), select **ComparisonTable** — or click the comparison table once on the canvas
-
-![ComparisonTable in Layers](/images/guide/synthexa-27@2x.png)
-
-3. Open the **Properties panel** (right sidebar)
-4. In the **ComparisonTable** section, enter or update the plan names for Plan 1, Plan 2, Plan 3
-
-![Plan Name](/images/guide/synthexa-28@2x.png)
-
-### Editing Plan CTA Buttons
-
-To edit the buttons at the bottom of the comparison table:
-
-1. With **ComparisonTable** selected in Layers (or after clicking it on canvas), go to the **Properties panel**
-2. Click **Edit Component** (in the ComparisonTable section or at the top of Properties)
-3. The component enters edit mode. Make sure you're viewing the **Desktop | Primary** variant (visible in the top-left toolbar) so your button changes inherit to other component variants
-
-![Component Primary Variant](/images/guide/synthexa-29@2x.png)
-
-4. Select the button for the plan you want to modify (click on canvas or select in Layers (ButtonMain component))
-
-5. In the **Properties panel**, update:
-   - **Label** — The button text (e.g., "Get Started")
-   - **Icon** — Show or hide an icon next to the button text
-   - **Link** — The URL the button links to
-
-![Button component properties](/images/guide/synthexa-30@2x.png)
-
-:::tip
-Plan prices, descriptions, and the main card layout are part of the Pricing page design. Adjust these directly on the canvas as needed. The CMS Pricing collection only controls the comparison table **rows** (features), not the plan cards themselves.
-:::
-
-## Next Steps
-
-→ [Design System - Colors](/synthexa/design/colors)
+To customize plan names and CTA buttons in the comparison table, see the [ComparisonTable component documentation](/synthexa/components/comparison-table).
