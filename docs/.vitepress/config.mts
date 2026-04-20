@@ -132,6 +132,7 @@ export default defineConfig({
                 { text: 'CardTool', link: '/synthexa/components/card-tool' },
                 { text: 'CardTestimonial', link: '/synthexa/components/card-testimonial' },
                 { text: 'CardPricing', link: '/synthexa/components/card-pricing' },
+                { text: 'CardFAQ', link: '/synthexa/components/card-faq' },
               ]
             },
             {
