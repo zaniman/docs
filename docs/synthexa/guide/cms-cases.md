@@ -57,6 +57,9 @@ The Terminal Snapshot field displays a branded terminal component showing compan
 **To add a terminal snapshot:**
 
 1. Click the **+Insert** button in the Terminal Snapshot rich text field
+
+![Add TerminalCase](/images/guide/synthexa-24a@2x.png)
+
 2. In the popup window, navigate to **Terminal** > **TerminalCases** and select the component
 
 ![Add TerminalCase](/images/guide/synthexa-24@2x.png)

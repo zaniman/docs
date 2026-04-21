@@ -25,7 +25,9 @@ Choose the collection you want to add to:
 
 ### Step 3: Click "New Item"
 
-Look for a **+ New Item** button or similar. Click it to create a new entry.
+Look for a **+ New Item** button. Click it to create a new entry.
+
+![CMS Collections](/images/guide/synthexa-119@2x.png)
 
 ### Step 4: Fill in the Fields
 
@@ -37,10 +39,6 @@ Depending on the collection, fill in the required fields:
 - **References** — Select from another collection (e.g., select an Author for a Blog post)
 - **Enums** — Choose from dropdown options
 - **Booleans** — Toggle on/off
-
-### Step 5: Save
-
-Click the **Save** button. Your entry is now in the CMS.
 
 ### Step 6: Publish Your Site
 
