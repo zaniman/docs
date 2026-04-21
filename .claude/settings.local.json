@@ -78,7 +78,8 @@
       "Bash(node -e \"const p = require\\('puppeteer'\\); console.log\\(p.executablePath ? p.executablePath\\(\\) : 'no exec path'\\)\")",
       "Bash(node -e \"const d=require\\('/dev/stdin'\\);console.log\\(d.version\\)\")",
       "Bash(npm list *)",
-      "Bash(node scripts/generate-pdf.mjs)"
+      "Bash(node scripts/generate-pdf.mjs)",
+      "Bash(open /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/synthexa-docs.pdf)"
     ]
   }
 }
